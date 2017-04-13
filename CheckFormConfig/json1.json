@@ -1,0 +1,3002 @@
+﻿[
+  {
+    "TemplateTypeName": "常用模板",
+    "TemplateTypeIcon": "icon-style",
+    "TemplateTypeSort": 0,
+    "Templates": [
+      {
+        "TemplateId": "",
+        "TemplateName": "空白项目",
+        "Controls": [
+
+        ],
+        "Stages": [
+
+        ],
+        "Sort": 1,
+        "WhetherToUse": true,
+        "Title": "",
+        "Color": "",
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "TemplateTypeName": "产品研发",
+    "TemplateTypeIcon": "icon-lightbulb_outline",
+    "TemplateTypeSort": 1,
+    "Templates": [
+      {
+        "TemplateId": "000000000000000000000001",
+        "TemplateName": "产品设计和需求追踪",
+        "Controls": [
+          {
+            "controlId": "58ecb41bd4e62811948360ae",
+            "controlName": "所属模块",
+            "isFilter": true,
+            "type": 11,
+            "row": 0,
+            "col": 0,
+            "hint": "选择特性所属模块",
+            "default": "0",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "明道 - 消息",
+                "index": 1,
+                "isDeleted": false
+              },
+              {
+                "key": "2",
+                "value": "明道 - 动态",
+                "index": 2,
+                "isDeleted": false
+              },
+              {
+                "key": "4",
+                "value": "明道 - 任务",
+                "index": 3,
+                "isDeleted": false
+              },
+              {
+                "key": "8",
+                "value": "明道 - 日程",
+                "index": 4,
+                "isDeleted": false
+              },
+              {
+                "key": "16",
+                "value": "明道 - 知识",
+                "index": 5,
+                "isDeleted": false
+              },
+              {
+                "key": "32",
+                "value": "HR - 审批",
+                "index": 6,
+                "isDeleted": false
+              },
+              {
+                "key": "64",
+                "value": "HR - 考勤",
+                "index": 7,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecb41bd4e62811948360af",
+            "controlName": "产品经理",
+            "isFilter": false,
+            "type": 2,
+            "row": 3,
+            "col": 0,
+            "hint": "填写产品经理",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecb41bd4e62811948360b0",
+            "controlName": "交互设计师",
+            "isFilter": false,
+            "type": 2,
+            "row": 4,
+            "col": 0,
+            "hint": "填写交互设计师",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecb41bd4e62811948360b1",
+            "controlName": "UI 设计师",
+            "isFilter": false,
+            "type": 2,
+            "row": 5,
+            "col": 0,
+            "hint": "填写 UI 设计师",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecb41bd4e62811948360b2",
+            "controlName": "",
+            "isFilter": false,
+            "type": 22,
+            "row": 7,
+            "col": 0,
+            "hint": "",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 1,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecb41bd4e62811948360b3",
+            "controlName": "需求优先级",
+            "isFilter": true,
+            "type": 11,
+            "row": 8,
+            "col": 0,
+            "hint": "定义综合优先级",
+            "default": "0",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "P1",
+                "index": 1,
+                "isDeleted": false
+              },
+              {
+                "key": "2",
+                "value": "P2",
+                "index": 2,
+                "isDeleted": false
+              },
+              {
+                "key": "4",
+                "value": "P3",
+                "index": 3,
+                "isDeleted": false
+              },
+              {
+                "key": "8",
+                "value": "P4",
+                "index": 4,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecb41bd4e62811948360b4",
+            "controlName": "商业价值",
+            "isFilter": true,
+            "type": 11,
+            "row": 8,
+            "col": 1,
+            "hint": "定义商业/营销/运营价值",
+            "default": "0",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "B1",
+                "index": 1,
+                "isDeleted": false
+              },
+              {
+                "key": "2",
+                "value": "B2",
+                "index": 2,
+                "isDeleted": false
+              },
+              {
+                "key": "4",
+                "value": "B3",
+                "index": 3,
+                "isDeleted": false
+              },
+              {
+                "key": "8",
+                "value": "B4",
+                "index": 4,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecb41bd4e62811948360b5",
+            "controlName": "用户价值",
+            "isFilter": true,
+            "type": 11,
+            "row": 9,
+            "col": 0,
+            "hint": "定义用户使用价值",
+            "default": "0",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "V1",
+                "index": 1,
+                "isDeleted": false
+              },
+              {
+                "key": "2",
+                "value": "V2",
+                "index": 2,
+                "isDeleted": false
+              },
+              {
+                "key": "4",
+                "value": "V3",
+                "index": 3,
+                "isDeleted": false
+              },
+              {
+                "key": "8",
+                "value": "V4",
+                "index": 4,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecb41bd4e62811948360b6",
+            "controlName": "影响用户比例",
+            "isFilter": true,
+            "type": 11,
+            "row": 9,
+            "col": 1,
+            "hint": "定义影响到的用户比例",
+            "default": "0",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "10%",
+                "index": 1,
+                "isDeleted": false
+              },
+              {
+                "key": "2",
+                "value": "20%",
+                "index": 2,
+                "isDeleted": false
+              },
+              {
+                "key": "4",
+                "value": "30%",
+                "index": 3,
+                "isDeleted": false
+              },
+              {
+                "key": "8",
+                "value": "40%",
+                "index": 4,
+                "isDeleted": false
+              },
+              {
+                "key": "16",
+                "value": "50%",
+                "index": 5,
+                "isDeleted": false
+              },
+              {
+                "key": "32",
+                "value": "60%",
+                "index": 6,
+                "isDeleted": false
+              },
+              {
+                "key": "64",
+                "value": "70%",
+                "index": 7,
+                "isDeleted": false
+              },
+              {
+                "key": "128",
+                "value": "80%",
+                "index": 8,
+                "isDeleted": false
+              },
+              {
+                "key": "256",
+                "value": "90%",
+                "index": 9,
+                "isDeleted": false
+              },
+              {
+                "key": "512",
+                "value": "100%",
+                "index": 10,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecb41bd4e62811948360b7",
+            "controlName": "",
+            "isFilter": false,
+            "type": 22,
+            "row": 11,
+            "col": 0,
+            "hint": "",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 1,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecb41bd4e62811948360b8",
+            "controlName": "原型文档",
+            "isFilter": false,
+            "type": 14,
+            "row": 12,
+            "col": 0,
+            "hint": "",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecb41bd4e62811948360b9",
+            "controlName": "发布版本",
+            "isFilter": false,
+            "type": 2,
+            "row": 14,
+            "col": 0,
+            "hint": "尚未安排",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecb6ccd4e62811948360e5",
+            "controlName": "使用平台",
+            "isFilter": true,
+            "type": 10,
+            "row": 1,
+            "col": 0,
+            "hint": "请选择",
+            "default": "0",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "桌面客户端",
+                "index": 1,
+                "isDeleted": false
+              },
+              {
+                "key": "2",
+                "value": "web",
+                "index": 2,
+                "isDeleted": false
+              },
+              {
+                "key": "4",
+                "value": "Android",
+                "index": 3,
+                "isDeleted": false
+              },
+              {
+                "key": "8",
+                "value": "iOS",
+                "index": 4,
+                "isDeleted": false
+              },
+              {
+                "key": "16",
+                "value": "iPad",
+                "index": 5,
+                "isDeleted": false
+              },
+              {
+                "key": "32",
+                "value": "AppleWatch",
+                "index": 6,
+                "isDeleted": false
+              },
+              {
+                "key": "64",
+                "value": "WinPhone",
+                "index": 7,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecb6f5d4e62811948360f2",
+            "controlName": "",
+            "isFilter": false,
+            "type": 22,
+            "row": 2,
+            "col": 0,
+            "hint": "",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 1,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecb780d4e62811948360f4",
+            "controlName": "需求方",
+            "isFilter": false,
+            "type": 2,
+            "row": 6,
+            "col": 0,
+            "hint": "产品部、公司其他部门或甲方公司名称",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecd2ecd4e628301cb472a9",
+            "controlName": "研发量预估",
+            "isFilter": true,
+            "type": 11,
+            "row": 10,
+            "col": 0,
+            "hint": "与研发同事讨论确定",
+            "default": "0",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "0.5周",
+                "index": 1,
+                "isDeleted": false
+              },
+              {
+                "key": "2",
+                "value": "1周",
+                "index": 2,
+                "isDeleted": false
+              },
+              {
+                "key": "4",
+                "value": "1.5周",
+                "index": 3,
+                "isDeleted": false
+              },
+              {
+                "key": "8",
+                "value": "2周",
+                "index": 4,
+                "isDeleted": false
+              },
+              {
+                "key": "16",
+                "value": "2.5周",
+                "index": 5,
+                "isDeleted": false
+              },
+              {
+                "key": "32",
+                "value": "3周",
+                "index": 6,
+                "isDeleted": false
+              },
+              {
+                "key": "64",
+                "value": "4周",
+                "index": 7,
+                "isDeleted": false
+              },
+              {
+                "key": "128",
+                "value": "5周",
+                "index": 8,
+                "isDeleted": false
+              },
+              {
+                "key": "256",
+                "value": "6周",
+                "index": 9,
+                "isDeleted": false
+              },
+              {
+                "key": "512",
+                "value": "8周",
+                "index": 10,
+                "isDeleted": false
+              },
+              {
+                "key": "1024",
+                "value": "10周",
+                "index": 11,
+                "isDeleted": false
+              },
+              {
+                "key": "2048",
+                "value": "12周+",
+                "index": 12,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecd2ecd4e628301cb472aa",
+            "controlName": "",
+            "isFilter": false,
+            "type": 22,
+            "row": 13,
+            "col": 0,
+            "hint": "",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 1,
+            "printHide": false,
+            "required": false
+          }
+        ],
+        "Stages": [
+          {
+            "Name": "需求收件箱",
+            "Sort": 1
+          },
+          {
+            "Name": "搁置",
+            "Sort": 2
+          },
+          {
+            "Name": "需求分析&产品方案",
+            "Sort": 3
+          },
+          {
+            "Name": "需求立项",
+            "Sort": 4
+          },
+          {
+            "Name": "交互设计",
+            "Sort": 5
+          },
+          {
+            "Name": "UI 设计",
+            "Sort": 6
+          },
+          {
+            "Name": "产品部 Review 通过，待评审",
+            "Sort": 7
+          },
+          {
+            "Name": "研发测试跟进",
+            "Sort": 8
+          },
+          {
+            "Name": "宣传物料准备",
+            "Sort": 9
+          },
+          {
+            "Name": "发布上线",
+            "Sort": 10
+          },
+          {
+            "Name": "数据分析/产品验证",
+            "Sort": 11
+          }
+        ],
+        "Sort": 1,
+        "WhetherToUse": true,
+        "Title": "适用于产品设计过程管理和需求追踪",
+        "Color": "#19B5FE",
+        "Icon": "icon-mode_edit.png"
+      },
+      {
+        "TemplateId": "000000000000000000000002",
+        "TemplateName": "研发流程",
+        "Controls": [
+          {
+            "controlId": "58eda273d4e6283a589c4802",
+            "controlName": "需求优先级",
+            "isFilter": true,
+            "type": 11,
+            "row": 0,
+            "col": 0,
+            "hint": "定义需求综合优先级",
+            "default": "0",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "P1",
+                "index": 1,
+                "isDeleted": false
+              },
+              {
+                "key": "2",
+                "value": "P2",
+                "index": 2,
+                "isDeleted": false
+              },
+              {
+                "key": "4",
+                "value": "P3",
+                "index": 3,
+                "isDeleted": false
+              },
+              {
+                "key": "8",
+                "value": "P4",
+                "index": 4,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58eda273d4e6283a589c4803",
+            "controlName": "发布版本",
+            "isFilter": false,
+            "type": 2,
+            "row": 1,
+            "col": 0,
+            "hint": "尚未安排",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58eda273d4e6283a589c4804",
+            "controlName": "使用平台",
+            "isFilter": true,
+            "type": 10,
+            "row": 2,
+            "col": 0,
+            "hint": "请选择",
+            "default": "0",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "桌面客户端",
+                "index": 1,
+                "isDeleted": false
+              },
+              {
+                "key": "2",
+                "value": "web",
+                "index": 2,
+                "isDeleted": false
+              },
+              {
+                "key": "4",
+                "value": "Android",
+                "index": 3,
+                "isDeleted": false
+              },
+              {
+                "key": "8",
+                "value": "iOS",
+                "index": 4,
+                "isDeleted": false
+              },
+              {
+                "key": "16",
+                "value": "iPad",
+                "index": 5,
+                "isDeleted": false
+              },
+              {
+                "key": "32",
+                "value": "AppleWatch",
+                "index": 6,
+                "isDeleted": false
+              },
+              {
+                "key": "64",
+                "value": "WinPhone",
+                "index": 7,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58eda273d4e6283a589c4805",
+            "controlName": "产品经理",
+            "isFilter": false,
+            "type": 2,
+            "row": 3,
+            "col": 0,
+            "hint": "填写产品经理",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58eda273d4e6283a589c4806",
+            "controlName": "原型文档",
+            "isFilter": false,
+            "type": 14,
+            "row": 4,
+            "col": 0,
+            "hint": "",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58eda273d4e6283a589c4807",
+            "controlName": "",
+            "isFilter": false,
+            "type": 22,
+            "row": 5,
+            "col": 0,
+            "hint": "",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 1,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58eda273d4e6283a589c4808",
+            "controlName": "对接状态",
+            "isFilter": true,
+            "type": 11,
+            "row": 6,
+            "col": 0,
+            "hint": "请选择",
+            "default": "1",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "无需对接",
+                "index": 1,
+                "isDeleted": false
+              },
+              {
+                "key": "2",
+                "value": "未交付",
+                "index": 2,
+                "isDeleted": false
+              },
+              {
+                "key": "4",
+                "value": "已交付",
+                "index": 3,
+                "isDeleted": false
+              },
+              {
+                "key": "8",
+                "value": "未接收",
+                "index": 4,
+                "isDeleted": false
+              },
+              {
+                "key": "16",
+                "value": "对接中",
+                "index": 5,
+                "isDeleted": false
+              },
+              {
+                "key": "32",
+                "value": "对接完成",
+                "index": 6,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58eda273d4e6283a589c4809",
+            "controlName": "注意事项",
+            "isFilter": false,
+            "type": 2,
+            "row": 7,
+            "col": 0,
+            "hint": "填写注意事项",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58eda273d4e6283a589c480a",
+            "controlName": "",
+            "isFilter": false,
+            "type": 22,
+            "row": 8,
+            "col": 0,
+            "hint": "",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 1,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58eda273d4e6283a589c480b",
+            "controlName": "体验/测试地址",
+            "isFilter": false,
+            "type": 2,
+            "row": 9,
+            "col": 0,
+            "hint": "填写体验或测试地址",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58eda273d4e6283a589c480c",
+            "controlName": "体验账号",
+            "isFilter": false,
+            "type": 2,
+            "row": 10,
+            "col": 0,
+            "hint": "填写体验账号",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58eda273d4e6283a589c480d",
+            "controlName": "密码",
+            "isFilter": false,
+            "type": 2,
+            "row": 11,
+            "col": 0,
+            "hint": "填写体验密码",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58eda273d4e6283a589c480e",
+            "controlName": "",
+            "isFilter": false,
+            "type": 22,
+            "row": 12,
+            "col": 0,
+            "hint": "",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 1,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58eda273d4e6283a589c480f",
+            "controlName": "预计提测日期",
+            "isFilter": false,
+            "type": 15,
+            "row": 13,
+            "col": 0,
+            "hint": "",
+            "default": "",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 1,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58eda273d4e6283a589c4810",
+            "controlName": "预计发布日期",
+            "isFilter": false,
+            "type": 15,
+            "row": 13,
+            "col": 1,
+            "hint": "",
+            "default": "",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 1,
+            "printHide": false,
+            "required": false
+          }
+        ],
+        "Stages": [
+          {
+            "Name": "原型文档预审",
+            "Sort": 1
+          },
+          {
+            "Name": "评审中",
+            "Sort": 2
+          },
+          {
+            "Name": "任务分解与研发计划制定",
+            "Sort": 3
+          },
+          {
+            "Name": "研发中",
+            "Sort": 4
+          },
+          {
+            "Name": "测试中",
+            "Sort": 5
+          },
+          {
+            "Name": "待发布",
+            "Sort": 6
+          },
+          {
+            "Name": "已发布观察中",
+            "Sort": 7
+          },
+          {
+            "Name": "长期维护",
+            "Sort": 8
+          }
+        ],
+        "Sort": 2,
+        "WhetherToUse": true,
+        "Title": "适用于研发部门对产品研发过程的管理",
+        "Color": "#81CFE0",
+        "Icon": "icon-organizational_structure.png"
+      },
+      {
+        "TemplateId": "000000000000000000000003",
+        "TemplateName": "Bug管理",
+        "Controls": [
+          {
+            "controlId": "58d87da8d4e6282408eb61df",
+            "controlName": "bug状态",
+            "isFilter": true,
+            "type": 9,
+            "row": 0,
+            "col": 0,
+            "hint": "请选择",
+            "default": "1",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "新建",
+                "index": 1,
+                "isDeleted": false
+              },
+              {
+                "key": "2",
+                "value": "修复中",
+                "index": 2,
+                "isDeleted": false
+              },
+              {
+                "key": "4",
+                "value": "验证中",
+                "index": 3,
+                "isDeleted": false
+              },
+              {
+                "key": "8",
+                "value": "关闭/不处理",
+                "index": 4,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58d87da8d4e6282408eb61e0",
+            "controlName": "解决方案",
+            "isFilter": true,
+            "type": 9,
+            "row": 1,
+            "col": 0,
+            "hint": "请选择",
+            "default": "1",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "未处理",
+                "index": 1,
+                "isDeleted": false
+              },
+              {
+                "key": "2",
+                "value": "暂不处理/不予解决",
+                "index": 2,
+                "isDeleted": false
+              },
+              {
+                "key": "4",
+                "value": "已修复",
+                "index": 3,
+                "isDeleted": false
+              },
+              {
+                "key": "8",
+                "value": "环境问题/外部原因",
+                "index": 4,
+                "isDeleted": false
+              },
+              {
+                "key": "16",
+                "value": "设计如此",
+                "index": 5,
+                "isDeleted": false
+              },
+              {
+                "key": "32",
+                "value": "无法重现",
+                "index": 6,
+                "isDeleted": false
+              },
+              {
+                "key": "64",
+                "value": "需求变更",
+                "index": 7,
+                "isDeleted": false
+              },
+              {
+                "key": "128",
+                "value": "其他",
+                "index": 8,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58d87da8d4e6282408eb61e1",
+            "controlName": "所属项目",
+            "isFilter": true,
+            "type": 11,
+            "row": 2,
+            "col": 1,
+            "hint": "请选择",
+            "default": "1",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "任务自定义",
+                "index": 1,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58d87da8d4e6282408eb61e2",
+            "controlName": "所属模块",
+            "isFilter": true,
+            "type": 11,
+            "row": 3,
+            "col": 0,
+            "hint": "请选择",
+            "default": "1",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "模块A",
+                "index": 1,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58d87da8d4e6282408eb61e3",
+            "controlName": "bug严重性",
+            "isFilter": true,
+            "type": 11,
+            "row": 4,
+            "col": 0,
+            "hint": "请选择",
+            "default": "2",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "1-严重",
+                "index": 1,
+                "isDeleted": false
+              },
+              {
+                "key": "2",
+                "value": "2-一般",
+                "index": 2,
+                "isDeleted": false
+              },
+              {
+                "key": "4",
+                "value": "3-轻微",
+                "index": 3,
+                "isDeleted": false
+              },
+              {
+                "key": "8",
+                "value": "4-建议",
+                "index": 4,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58d87da8d4e6282408eb61e4",
+            "controlName": "版本号",
+            "isFilter": true,
+            "type": 11,
+            "row": 3,
+            "col": 1,
+            "hint": "请选择",
+            "default": "1",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "V3.2.2.0",
+                "index": 1,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58d87da8d4e6282408eb61e5",
+            "controlName": "测试系统",
+            "isFilter": true,
+            "type": 10,
+            "row": 5,
+            "col": 0,
+            "hint": "请选择",
+            "default": "1",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "web",
+                "index": 1,
+                "isDeleted": false
+              },
+              {
+                "key": "2",
+                "value": "IOS",
+                "index": 2,
+                "isDeleted": false
+              },
+              {
+                "key": "4",
+                "value": "android",
+                "index": 3,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58d87da8d4e6282408eb61e6",
+            "controlName": "浏览器环境",
+            "isFilter": true,
+            "type": 10,
+            "row": 6,
+            "col": 0,
+            "hint": "请选择",
+            "default": "1",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "Chrome",
+                "index": 1,
+                "isDeleted": false
+              },
+              {
+                "key": "2",
+                "value": "Firefox",
+                "index": 2,
+                "isDeleted": false
+              },
+              {
+                "key": "4",
+                "value": "IE",
+                "index": 3,
+                "isDeleted": false
+              },
+              {
+                "key": "8",
+                "value": "safari",
+                "index": 4,
+                "isDeleted": false
+              },
+              {
+                "key": "16",
+                "value": "app",
+                "index": 5,
+                "isDeleted": false
+              },
+              {
+                "key": "32",
+                "value": "其他",
+                "index": 7,
+                "isDeleted": false
+              },
+              {
+                "key": "64",
+                "value": "edge",
+                "index": 6,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58d87da8d4e6282408eb61e7",
+            "controlName": "重现步骤",
+            "isFilter": false,
+            "type": 2,
+            "row": 7,
+            "col": 0,
+            "hint": "填写详细描述和重现步骤",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58d87da8d4e6282408eb61e8",
+            "controlName": "附件",
+            "isFilter": false,
+            "type": 14,
+            "row": 8,
+            "col": 0,
+            "hint": "",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58d88541d4e6282408eb6268",
+            "controlName": "所属产品",
+            "isFilter": true,
+            "type": 11,
+            "row": 2,
+            "col": 0,
+            "hint": "请选择",
+            "default": "1",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "明道",
+                "index": 1,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58d88541d4e6282408eb6269",
+            "controlName": "优先级",
+            "isFilter": true,
+            "type": 11,
+            "row": 4,
+            "col": 1,
+            "hint": "请选择",
+            "default": "4",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "1-立刻修复",
+                "index": 1,
+                "isDeleted": false
+              },
+              {
+                "key": "2",
+                "value": "2-紧急",
+                "index": 2,
+                "isDeleted": false
+              },
+              {
+                "key": "4",
+                "value": "3-正常",
+                "index": 3,
+                "isDeleted": false
+              },
+              {
+                "key": "8",
+                "value": "4-稍缓",
+                "index": 4,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          }
+
+        ],
+        "Stages": [
+          {
+            "Name": "Bug收件箱",
+            "Sort": 1
+          },
+          {
+            "Name": "处理中",
+            "Sort": 2
+          },
+          {
+            "Name": "待验证",
+            "Sort": 3
+          },
+          {
+            "Name": "已关闭/不处理",
+            "Sort": 4
+          }
+        ],
+        "Sort": 3,
+        "WhetherToUse": true,
+        "Title": "适用于产品Bug的收集、解决等流程的管理",
+        "Color": "#2574A9",
+        "Icon": "icon-admin-tool.png"
+      }
+
+    ]
+  },
+  {
+    "TemplateTypeName": "行政人事",
+    "TemplateTypeIcon": "icon-role-approval",
+    "TemplateTypeSort": 2,
+    "Templates": [
+      {
+        "TemplateId": "000000000000000000000101",
+        "TemplateName": "OKR管理",
+        "Controls": [
+
+        ],
+        "Stages": [
+          {
+            "Name": "OKR 促动会议",
+            "Sort": 1
+          },
+          {
+            "Name": "季度 OKR 会议筹备",
+            "Sort": 2
+          },
+          {
+            "Name": "季度 OKR - 制定 O",
+            "Sort": 3
+          },
+          {
+            "Name": "季度 OKR - 制定 KR",
+            "Sort": 4
+          },
+          {
+            "Name": "分配 KR / 确定 OKR 大使",
+            "Sort": 5
+          },
+          {
+            "Name": "OKR review 例会(每周或每两周)",
+            "Sort": 6
+          }
+        ],
+        "Sort": 1,
+        "WhetherToUse": true,
+        "Title": "适用于团队的OKR管理",
+        "Color": "#F1A89F",
+        "Icon": "icon-playlist_add_check.png"
+      },
+      {
+        "TemplateId": "000000000000000000000102",
+        "TemplateName": "招聘",
+        "Controls": [
+          {
+            "controlId": "58edee62d4e6283a08a43d4f",
+            "controlName": "姓名",
+            "isFilter": false,
+            "type": 2,
+            "row": 0,
+            "col": 0,
+            "hint": "填写姓名",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58edee62d4e6283a08a43d50",
+            "controlName": "手机",
+            "isFilter": false,
+            "type": 3,
+            "row": 1,
+            "col": 0,
+            "hint": "填写手机号码",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58edee62d4e6283a08a43d51",
+            "controlName": "邮件地址",
+            "isFilter": false,
+            "type": 5,
+            "row": 1,
+            "col": 1,
+            "hint": "填写邮件地址",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58edee62d4e6283a08a43d52",
+            "controlName": "出生年月",
+            "isFilter": false,
+            "type": 15,
+            "row": 2,
+            "col": 0,
+            "hint": "",
+            "default": "",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 1,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58edee62d4e6283a08a43d53",
+            "controlName": "工作年限",
+            "isFilter": false,
+            "type": 6,
+            "row": 2,
+            "col": 1,
+            "hint": "填写工作年限",
+            "validate": false,
+            "dot": 0,
+            "unit": "年",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58edee62d4e6283a08a43d54",
+            "controlName": "性别",
+            "isFilter": true,
+            "type": 9,
+            "row": 3,
+            "col": 0,
+            "hint": "请选择",
+            "default": "1",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "未填",
+                "index": 1,
+                "isDeleted": false
+              },
+              {
+                "key": "2",
+                "value": "男",
+                "index": 2,
+                "isDeleted": false
+              },
+              {
+                "key": "4",
+                "value": "女",
+                "index": 3,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58edee62d4e6283a08a43d55",
+            "controlName": "户口所在地",
+            "isFilter": false,
+            "type": 24,
+            "row": 4,
+            "col": 0,
+            "hint": "",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58edee62d4e6283a08a43d56",
+            "controlName": "现住址",
+            "isFilter": false,
+            "type": 24,
+            "row": 4,
+            "col": 1,
+            "hint": "",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58edee62d4e6283a08a43d57",
+            "controlName": "最高学历",
+            "isFilter": true,
+            "type": 9,
+            "row": 5,
+            "col": 0,
+            "hint": "请选择",
+            "default": "1",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "小学",
+                "index": 1,
+                "isDeleted": false
+              },
+              {
+                "key": "2",
+                "value": "初中",
+                "index": 2,
+                "isDeleted": false
+              },
+              {
+                "key": "4",
+                "value": "中专",
+                "index": 3,
+                "isDeleted": false
+              },
+              {
+                "key": "8",
+                "value": "高中",
+                "index": 4,
+                "isDeleted": false
+              },
+              {
+                "key": "16",
+                "value": "大专",
+                "index": 5,
+                "isDeleted": false
+              },
+              {
+                "key": "32",
+                "value": "本科",
+                "index": 6,
+                "isDeleted": false
+              },
+              {
+                "key": "64",
+                "value": "硕士",
+                "index": 7,
+                "isDeleted": false
+              },
+              {
+                "key": "128",
+                "value": "博士",
+                "index": 8,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58edee62d4e6283a08a43d58",
+            "controlName": "毕业院校",
+            "isFilter": false,
+            "type": 2,
+            "row": 6,
+            "col": 0,
+            "hint": "填写毕业院校",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58edee62d4e6283a08a43d59",
+            "controlName": "",
+            "isFilter": false,
+            "type": 22,
+            "row": 7,
+            "col": 0,
+            "hint": "",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 1,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58edee62d4e6283a08a43d5a",
+            "controlName": "投递职位",
+            "isFilter": false,
+            "type": 2,
+            "row": 8,
+            "col": 0,
+            "hint": "填写职位名称",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58edee62d4e6283a08a43d5b",
+            "controlName": "职位描述",
+            "isFilter": false,
+            "type": 2,
+            "row": 9,
+            "col": 0,
+            "hint": "填写描述或贴入链接",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58edee62d4e6283a08a43d5c",
+            "controlName": "用人部门",
+            "isFilter": true,
+            "type": 9,
+            "row": 10,
+            "col": 0,
+            "hint": "请选择",
+            "default": "1",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "部门 A",
+                "index": 1,
+                "isDeleted": false
+              },
+              {
+                "key": "2",
+                "value": "部门 B",
+                "index": 2,
+                "isDeleted": false
+              },
+              {
+                "key": "4",
+                "value": "部门 C",
+                "index": 3,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58edee62d4e6283a08a43d5d",
+            "controlName": "薪资期望",
+            "isFilter": false,
+            "type": 6,
+            "row": 11,
+            "col": 0,
+            "hint": "填写数值",
+            "validate": false,
+            "dot": 0,
+            "unit": "千元/月",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58edee62d4e6283a08a43d5e",
+            "controlName": "",
+            "isFilter": false,
+            "type": 22,
+            "row": 12,
+            "col": 0,
+            "hint": "",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 1,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58edee62d4e6283a08a43d5f",
+            "controlName": "HR 评估分",
+            "isFilter": true,
+            "type": 11,
+            "row": 13,
+            "col": 0,
+            "hint": "选择分数",
+            "default": "0",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "1",
+                "index": 1,
+                "isDeleted": false
+              },
+              {
+                "key": "2",
+                "value": "2",
+                "index": 2,
+                "isDeleted": false
+              },
+              {
+                "key": "4",
+                "value": "3",
+                "index": 3,
+                "isDeleted": false
+              },
+              {
+                "key": "8",
+                "value": "4",
+                "index": 4,
+                "isDeleted": false
+              },
+              {
+                "key": "16",
+                "value": "5",
+                "index": 5,
+                "isDeleted": false
+              },
+              {
+                "key": "32",
+                "value": "6",
+                "index": 6,
+                "isDeleted": false
+              },
+              {
+                "key": "64",
+                "value": "7",
+                "index": 7,
+                "isDeleted": false
+              },
+              {
+                "key": "128",
+                "value": "8",
+                "index": 8,
+                "isDeleted": false
+              },
+              {
+                "key": "256",
+                "value": "9",
+                "index": 9,
+                "isDeleted": false
+              },
+              {
+                "key": "512",
+                "value": "10",
+                "index": 10,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58edee62d4e6283a08a43d60",
+            "controlName": "主管评估分",
+            "isFilter": true,
+            "type": 11,
+            "row": 13,
+            "col": 1,
+            "hint": "选择分数",
+            "default": "0",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "1",
+                "index": 1,
+                "isDeleted": false
+              },
+              {
+                "key": "2",
+                "value": "2",
+                "index": 2,
+                "isDeleted": false
+              },
+              {
+                "key": "4",
+                "value": "3",
+                "index": 3,
+                "isDeleted": false
+              },
+              {
+                "key": "8",
+                "value": "4",
+                "index": 4,
+                "isDeleted": false
+              },
+              {
+                "key": "16",
+                "value": "5",
+                "index": 5,
+                "isDeleted": false
+              },
+              {
+                "key": "32",
+                "value": "6",
+                "index": 6,
+                "isDeleted": false
+              },
+              {
+                "key": "64",
+                "value": "7",
+                "index": 7,
+                "isDeleted": false
+              },
+              {
+                "key": "128",
+                "value": "8",
+                "index": 8,
+                "isDeleted": false
+              },
+              {
+                "key": "256",
+                "value": "9",
+                "index": 9,
+                "isDeleted": false
+              },
+              {
+                "key": "512",
+                "value": "10",
+                "index": 10,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58edee62d4e6283a08a43d61",
+            "controlName": "整体评价",
+            "isFilter": false,
+            "type": 2,
+            "row": 14,
+            "col": 0,
+            "hint": "填写内容",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          }
+        ],
+        "Stages": [
+          {
+            "Name": "简历收件箱",
+            "Sort": 1
+          },
+          {
+            "Name": "简历筛选",
+            "Sort": 2
+          },
+          {
+            "Name": "暂不适合",
+            "Sort": 3
+          },
+          {
+            "Name": "HR面试",
+            "Sort": 4
+          },
+          {
+            "Name": "主管面试",
+            "Sort": 5
+          },
+          {
+            "Name": "发放Offer",
+            "Sort": 6
+          },
+          {
+            "Name": "入职",
+            "Sort": 7
+          }
+        ],
+        "Sort": 2,
+        "WhetherToUse": true,
+        "Title": "适用于人事部门从简历筛选到入职安排的招聘流程管理",
+        "Color": "#D2527F",
+        "Icon": "icon-portrait.png"
+      },
+      {
+        "TemplateId": "000000000000000000000103",
+        "TemplateName": "新员工管理",
+        "Controls": [
+
+        ],
+        "Stages": [
+          {
+            "Name": "入职",
+            "Sort": 1
+          },
+          {
+            "Name": "一周回顾",
+            "Sort": 2
+          },
+          {
+            "Name": "一月回顾",
+            "Sort": 3
+          },
+          {
+            "Name": "试用期回顾",
+            "Sort": 4
+          },
+          {
+            "Name": "转正",
+            "Sort": 5
+          }
+        ],
+        "Sort": 3,
+        "WhetherToUse": true,
+        "Title": "适用于人事部门对新员工在试用期的指引和管理",
+        "Color": "#E08283",
+        "Icon": "icon-assignment_turned_in.png"
+      }
+
+    ]
+  },
+  {
+    "TemplateTypeName": "销售市场",
+    "TemplateTypeIcon": "icon-salary3",
+    "TemplateTypeSort": 3,
+    "Templates": [
+      {
+        "TemplateId": "000000000000000000000201",
+        "TemplateName": "“销售漏斗”",
+        "Controls": [
+          {
+            "controlId": "58ecdce9d4e6281ce0851882",
+            "controlName": "成单预期",
+            "isFilter": true,
+            "type": 11,
+            "row": 0,
+            "col": 0,
+            "hint": "预计成功率",
+            "default": "0",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "20%",
+                "index": 1,
+                "isDeleted": false
+              },
+              {
+                "key": "2",
+                "value": "40%",
+                "index": 2,
+                "isDeleted": false
+              },
+              {
+                "key": "4",
+                "value": "60%",
+                "index": 3,
+                "isDeleted": false
+              },
+              {
+                "key": "8",
+                "value": "80%",
+                "index": 4,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecdce9d4e6281ce0851883",
+            "controlName": "客户意向",
+            "isFilter": true,
+            "type": 11,
+            "row": 0,
+            "col": 1,
+            "hint": "根据销售经理判断",
+            "default": "0",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "高",
+                "index": 1,
+                "isDeleted": false
+              },
+              {
+                "key": "2",
+                "value": "中",
+                "index": 2,
+                "isDeleted": false
+              },
+              {
+                "key": "4",
+                "value": "低",
+                "index": 3,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecdce9d4e6281ce0851884",
+            "controlName": "",
+            "isFilter": false,
+            "type": 22,
+            "row": 1,
+            "col": 0,
+            "hint": "",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 1,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecdce9d4e6281ce0851885",
+            "controlName": "客户名称",
+            "isFilter": false,
+            "type": 2,
+            "row": 2,
+            "col": 0,
+            "hint": "填写客户名称",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecdce9d4e6281ce0851886",
+            "controlName": "客户等级",
+            "isFilter": true,
+            "type": 11,
+            "row": 3,
+            "col": 0,
+            "hint": "选择客户等级",
+            "default": "0",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "普通",
+                "index": 1,
+                "isDeleted": false
+              },
+              {
+                "key": "2",
+                "value": "高级",
+                "index": 2,
+                "isDeleted": false
+              },
+              {
+                "key": "4",
+                "value": "VIP",
+                "index": 3,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecdce9d4e6281ce0851887",
+            "controlName": "规模",
+            "isFilter": false,
+            "type": 6,
+            "row": 3,
+            "col": 1,
+            "hint": "填写产品使用规模",
+            "validate": false,
+            "dot": 0,
+            "unit": "人",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecdce9d4e6281ce0851888",
+            "controlName": "地区",
+            "isFilter": false,
+            "type": 23,
+            "row": 4,
+            "col": 0,
+            "hint": "",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecdce9d4e6281ce0851889",
+            "controlName": "行业",
+            "isFilter": true,
+            "type": 11,
+            "row": 4,
+            "col": 1,
+            "hint": "选择客户行业",
+            "default": "0",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "options": [
+              {
+                "key": "1",
+                "value": "IT软件服务",
+                "index": 1,
+                "isDeleted": false
+              },
+              {
+                "key": "2",
+                "value": "互联网",
+                "index": 2,
+                "isDeleted": false
+              },
+              {
+                "key": "4",
+                "value": "电商",
+                "index": 3,
+                "isDeleted": false
+              },
+              {
+                "key": "8",
+                "value": "房地产",
+                "index": 4,
+                "isDeleted": false
+              },
+              {
+                "key": "16",
+                "value": "广告媒体",
+                "index": 5,
+                "isDeleted": false
+              },
+              {
+                "key": "32",
+                "value": "政府机关",
+                "index": 6,
+                "isDeleted": false
+              },
+              {
+                "key": "64",
+                "value": "教育科研",
+                "index": 7,
+                "isDeleted": false
+              },
+              {
+                "key": "128",
+                "value": "机械制造",
+                "index": 8,
+                "isDeleted": false
+              },
+              {
+                "key": "256",
+                "value": "管理咨询",
+                "index": 9,
+                "isDeleted": false
+              },
+              {
+                "key": "512",
+                "value": "法律",
+                "index": 10,
+                "isDeleted": false
+              },
+              {
+                "key": "1024",
+                "value": "金融",
+                "index": 11,
+                "isDeleted": false
+              },
+              {
+                "key": "2048",
+                "value": "物流",
+                "index": 12,
+                "isDeleted": false
+              },
+              {
+                "key": "4096",
+                "value": "零售",
+                "index": 13,
+                "isDeleted": false
+              },
+              {
+                "key": "8192",
+                "value": "旅游",
+                "index": 14,
+                "isDeleted": false
+              },
+              {
+                "key": "16384",
+                "value": "食品",
+                "index": 15,
+                "isDeleted": false
+              },
+              {
+                "key": "32768",
+                "value": "化工",
+                "index": 16,
+                "isDeleted": false
+              },
+              {
+                "key": "65536",
+                "value": "能源",
+                "index": 17,
+                "isDeleted": false
+              },
+              {
+                "key": "131072",
+                "value": "通信",
+                "index": 18,
+                "isDeleted": false
+              }
+            ],
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecdce9d4e6281ce085188a",
+            "controlName": "",
+            "isFilter": false,
+            "type": 22,
+            "row": 5,
+            "col": 0,
+            "hint": "",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 1,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecdce9d4e6281ce085188b",
+            "controlName": "联系人",
+            "isFilter": false,
+            "type": 2,
+            "row": 6,
+            "col": 0,
+            "hint": "填写联系人姓名",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecdce9d4e6281ce085188c",
+            "controlName": "职位",
+            "isFilter": false,
+            "type": 2,
+            "row": 7,
+            "col": 0,
+            "hint": "填写联系人职位",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecdce9d4e6281ce085188d",
+            "controlName": "手机",
+            "isFilter": false,
+            "type": 3,
+            "row": 8,
+            "col": 0,
+            "hint": "填写手机号码",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecdce9d4e6281ce085188e",
+            "controlName": "邮箱",
+            "isFilter": false,
+            "type": 5,
+            "row": 8,
+            "col": 1,
+            "hint": "填写邮箱地址",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecdce9d4e6281ce085188f",
+            "controlName": "微信",
+            "isFilter": false,
+            "type": 2,
+            "row": 9,
+            "col": 0,
+            "hint": "填写“同手机号”或具体微信号",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecdce9d4e6281ce0851890",
+            "controlName": "",
+            "isFilter": false,
+            "type": 22,
+            "row": 10,
+            "col": 0,
+            "hint": "",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 1,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecdce9d4e6281ce0851891",
+            "controlName": "需求方向",
+            "isFilter": false,
+            "type": 2,
+            "row": 11,
+            "col": 0,
+            "hint": "填写需求方向",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          },
+          {
+            "controlId": "58ecdce9d4e6281ce0851892",
+            "controlName": "销售(产品)方案",
+            "isFilter": false,
+            "type": 2,
+            "row": 12,
+            "col": 0,
+            "hint": "填写提报客户的产品方案",
+            "validate": false,
+            "dot": 0,
+            "unit": "",
+            "enumDefault": 0,
+            "printHide": false,
+            "required": false
+          }
+        ],
+        "Stages": [
+          {
+            "Name": "线索池",
+            "Sort": 1
+          },
+          {
+            "Name": "意向确认",
+            "Sort": 2
+          },
+          {
+            "Name": "约访/演示",
+            "Sort": 3
+          },
+          {
+            "Name": "方案洽谈",
+            "Sort": 4
+          },
+          {
+            "Name": "签约",
+            "Sort": 5
+          },
+          {
+            "Name": "收款",
+            "Sort": 6
+          },
+          {
+            "Name": "部署/交付",
+            "Sort": 7
+          },
+          {
+            "Name": "维护",
+            "Sort": 8
+          }
+        ],
+        "Sort": 1,
+        "WhetherToUse": true,
+        "Title": "记录、分类客户信息，持续推进和追踪",
+        "Color": "#AEA8D3",
+        "Icon": "icon-verified_user.png"
+      }
+    ]
+  },
+  {
+    "TemplateTypeName": "电商平台",
+    "TemplateTypeIcon": "icon-shopping_cart",
+    "TemplateTypeSort": 4,
+    "Templates": [
+      {
+        "TemplateId": "000000000000000000000301",
+        "TemplateName": "电商运营",
+        "Controls": [
+
+        ],
+        "Stages": [
+          {
+            "Name": "项目计划",
+            "Sort": 1
+          },
+          {
+            "Name": "拍摄修图",
+            "Sort": 2
+          },
+          {
+            "Name": "备货",
+            "Sort": 3
+          },
+          {
+            "Name": "页面设计",
+            "Sort": 4
+          },
+          {
+            "Name": "后台配置",
+            "Sort": 5
+          },
+          {
+            "Name": "预热和上新",
+            "Sort": 6
+          }
+        ],
+        "Sort": 1,
+        "WhetherToUse": true,
+        "Title": "适用于电商运营进行活动前期的工作统筹和推进",
+        "Color": "#F9BF3B",
+        "Icon": "icon-add_shopping_cart.png"
+      },
+      {
+        "TemplateId": "000000000000000000000302",
+        "TemplateName": "市场活动",
+        "Controls": [
+
+        ],
+        "Stages": [
+          {
+            "Name": "方案策划",
+            "Sort": 1
+          },
+          {
+            "Name": "人员安排",
+            "Sort": 2
+          },
+          {
+            "Name": "视觉设计",
+            "Sort": 3
+          },
+          {
+            "Name": "物料准备",
+            "Sort": 4
+          },
+          {
+            "Name": "现场布置",
+            "Sort": 5
+          },
+          {
+            "Name": "活动中",
+            "Sort": 6
+          },
+          {
+            "Name": "活动后收尾",
+            "Sort": 7
+          }
+        ],
+        "Sort": 2,
+        "WhetherToUse": true,
+        "Title": "适用于电商市场活动前期筹备、活动执行及后期处理的管理",
+        "Color": "#F89406",
+        "Icon": "icon-redeem.png"
+      },
+      {
+        "TemplateId": "000000000000000000000303",
+        "TemplateName": "售后管理",
+        "Controls": [],
+        "Stages": [
+          {
+            "Name": "反馈收件箱",
+            "Sort": 1
+          },
+          {
+            "Name": "驳回",
+            "Sort": 2
+          },
+          {
+            "Name": "搁置",
+            "Sort": 3
+          },
+          {
+            "Name": "待处理",
+            "Sort": 4
+          },
+          {
+            "Name": "处理中",
+            "Sort": 5
+          },
+          {
+            "Name": "处理完成",
+            "Sort": 6
+          }
+        ],
+        "Sort": 3,
+        "WhetherToUse": true,
+        "Title": "适用于电商的售后订单服务管理",
+        "Color": "#F2784B",
+        "Icon": "icon-headset_mic.png"
+      }
+    ]
+  },
+
+  {
+    "TemplateTypeName": "其他行业",
+    "TemplateTypeIcon": "icon-grain",
+    "TemplateTypeSort": 5,
+    "Templates": [
+      {
+        "TemplateId": "000000000000000000000401",
+        "TemplateName": "律所案件处理",
+        "Controls": [],
+        "Stages": [
+          {
+            "Name": "委托接洽",
+            "Sort": 1
+          },
+          {
+            "Name": "协商代理",
+            "Sort": 2
+          },
+          {
+            "Name": "案件事实整理",
+            "Sort": 3
+          },
+          {
+            "Name": "立案",
+            "Sort": 4
+          },
+          {
+            "Name": "诉讼策略初稿",
+            "Sort": 5
+          },
+          {
+            "Name": "诉讼策略定稿",
+            "Sort": 6
+          },
+          {
+            "Name": "开庭准备",
+            "Sort": 7
+          },
+          {
+            "Name": "庭审后复盘",
+            "Sort": 8
+          },
+          {
+            "Name": "案件归档与知识管理",
+            "Sort": 9
+          }
+        ],
+        "Sort": 1,
+        "WhetherToUse": true,
+        "Title": "适用于开庭前案件准备阶段的项目管理",
+        "Color": "#03AF56",
+        "Icon": "icon-contacts_card_email.png"
+      },
+      {
+        "TemplateId": "000000000000000000000402",
+        "TemplateName": "“风投项目管理\",",
+        "Controls": [
+
+        ],
+        "Stages": [
+          {
+            "Name": "备选项收件箱",
+            "Sort": 1
+          },
+          {
+            "Name": "重点跟进",
+            "Sort": 2
+          },
+          {
+            "Name": "尽职调研",
+            "Sort": 3
+          },
+          {
+            "Name": "投委会讨论意见",
+            "Sort": 4
+          },
+          {
+            "Name": "签署投资备忘录",
+            "Sort": 5
+          },
+          {
+            "Name": "最终投资协议",
+            "Sort": 6
+          },
+          {
+            "Name": "放款与工商变更",
+            "Sort": 7
+          }
+        ],
+        "Sort": 2,
+        "WhetherToUse": true,
+        "Title": "适用于投资机构对具体投资项目的全流程项目管理",
+        "Color": "#1ACC8E",
+        "Icon": "icon-event_note.png"
+      },
+      {
+        "TemplateId": "000000000000000000000403",
+        "TemplateName": "建筑图纸设计",
+        "Controls": [
+
+        ],
+        "Stages": [
+          {
+            "Name": "项目投标",
+            "Sort": 1
+          },
+          {
+            "Name": "建筑设计",
+            "Sort": 2
+          },
+          {
+            "Name": "施工组织设计",
+            "Sort": 3
+          },
+          {
+            "Name": "结构设计",
+            "Sort": 4
+          },
+          {
+            "Name": "施工图设计",
+            "Sort": 5
+          },
+          {
+            "Name": "给排水施工图",
+            "Sort": 6
+          },
+          {
+            "Name": "暖通工程",
+            "Sort": 7
+          },
+          {
+            "Name": "强弱电设计",
+            "Sort": 8
+          },
+          {
+            "Name": "图纸会审",
+            "Sort": 9
+          },
+          {
+            "Name": "项目验收",
+            "Sort": 10
+          }
+        ],
+        "Sort": 3,
+        "WhetherToUse": true,
+        "Title": "适用于建筑工程全生命周期的过程项目管理",
+        "Color": "#1BA39C",
+        "Icon": "icon-mode_edit.png"
+      },
+      {
+        "TemplateId": "000000000000000000000404",
+        "TemplateName": "工程项目管理",
+        "Controls": [
+
+        ],
+        "Stages": [
+          {
+            "Name": "项目评估",
+            "Sort": 1
+          },
+          {
+            "Name": "立项",
+            "Sort": 2
+          },
+          {
+            "Name": "方案设计",
+            "Sort": 3
+          },
+          {
+            "Name": "标书制作",
+            "Sort": 4
+          },
+          {
+            "Name": "投标阶段",
+            "Sort": 5
+          },
+          {
+            "Name": "深化设计",
+            "Sort": 6
+          },
+          {
+            "Name": "合同签订及移交",
+            "Sort": 7
+          },
+          {
+            "Name": "施工",
+            "Sort": 8
+          },
+          {
+            "Name": "验收",
+            "Sort": 9
+          },
+          {
+            "Name": "项目竣工",
+            "Sort": 10
+          }
+        ],
+        "Sort": 4,
+        "WhetherToUse": true,
+        "Title": "适用于从立项到验收的工程项目全生命周期管理模板",
+        "Color": "#03A678",
+        "Icon": "icon-storage.png"
+      },
+      {
+        "TemplateId": "000000000000000000000405",
+        "TemplateName": "建装修物料明细管理",
+        "Controls": [
+
+        ],
+        "Stages": [
+          {
+            "Name": "新增物件",
+            "Sort": 1
+          },
+          {
+            "Name": "准备工作",
+            "Sort": 2
+          },
+          {
+            "Name": "初步设计",
+            "Sort": 3
+          },
+          {
+            "Name": "深化设计",
+            "Sort": 4
+          },
+          {
+            "Name": "采购列表",
+            "Sort": 5
+          },
+          {
+            "Name": "反馈沟通",
+            "Sort": 6
+          },
+          {
+            "Name": "施工工艺天龙",
+            "Sort": 7
+          },
+          {
+            "Name": "施工进展",
+            "Sort": 8
+          }
+        ],
+        "Sort": 5,
+        "WhetherToUse": true,
+        "Title": "适用于装修过程中对物料明细的项目管理模板",
+        "Color": "#00C9B2",
+        "Icon": "icon-local_shipping.png"
+      },
+      {
+        "TemplateId": "000000000000000000000406",
+        "TemplateName": "工程协作",
+        "Controls": [
+
+        ],
+        "Stages": [
+          {
+            "Name": "工作安排",
+            "Sort": 1
+          },
+          {
+            "Name": "问题汇报",
+            "Sort": 2
+          },
+          {
+            "Name": "图纸调整",
+            "Sort": 3
+          },
+          {
+            "Name": "提料加工注意事项",
+            "Sort": 4
+          },
+          {
+            "Name": "技术文件摘要",
+            "Sort": 5
+          }
+        ],
+        "Sort": 6,
+        "WhetherToUse": true,
+        "Title": "适用于工程中各个环节协作管理的模板",
+        "Color": "#87D35F",
+        "Icon": "icon-chatnetwork-type2.png"
+      }
+    ]
+  }
+]
